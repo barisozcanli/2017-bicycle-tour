@@ -2,107 +2,214 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Directions from Hopa Otogarı, Hopa/Artvin, Turkey to Poti, Samegrelo-Zemo Svaneti, Georgia</name>
-    <Style id="icon-1899-DB4436-nodesc-normal">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
+    
+
+    <Style id="bisiklet-normal">
+      <LineStyle>
+        <color>29E500</color>
+        <width>6</width>
+      </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
+    <Style id="bisiklet-highlight">
+      <LineStyle>
+        <color>29E500</color>
+        <width>6</width>
+      </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
+    <StyleMap id="bisiklet-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+        <styleUrl>#bisiklet-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+        <styleUrl>#bisiklet-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-1267FF-5000-nodesc-normal">
+
+    <Style id="caspean-normal">
       <LineStyle>
-        <color>ffff6712</color>
-        <width>5</width>
+        <color>C272FF</color>
+        <width>6</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-1267FF-5000-nodesc-highlight">
+    <Style id="caspean-highlight">
       <LineStyle>
-        <color>ffff6712</color>
-        <width>5</width>
+        <color>C272FF</color>
+        <width>6</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-1267FF-5000-nodesc">
+    <StyleMap id="caspean-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+        <styleUrl>#caspean-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+        <styleUrl>#caspean-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-F9A825-5000-nodesc-normal">
+
+    <Style id="otobus-normal">
       <LineStyle>
-        <color>ff25a8f9</color>
-        <width>5</width>
+        <color>440e62</color>
+        <width>6</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-F9A825-5000-nodesc-highlight">
+    <Style id="otobus-highlight">
       <LineStyle>
-        <color>ff25a8f9</color>
-        <width>5</width>
+        <color>440e62</color>
+        <width>6</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-F9A825-5000-nodesc">
+    <StyleMap id="otobus-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-F9A825-5000-nodesc-normal</styleUrl>
+        <styleUrl>#otobus-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-F9A825-5000-nodesc-highlight</styleUrl>
+        <styleUrl>#otobus-highlight</styleUrl>
       </Pair>
     </StyleMap>
+
+    <Style id="polis-normal">
+      <LineStyle>
+        <color>1706FF</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="polis-highlight">
+      <LineStyle>
+        <color>1706FF</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="polis-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#polis-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#polis-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+
+    <Style id="tren-normal">
+      <LineStyle>
+        <color>F2BC00</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="tren-highlight">
+      <LineStyle>
+        <color>F2BC00</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="tren-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#tren-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#tren-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+
+    <Style id="otostop-normal">
+      <LineStyle>
+        <color>FF5B46</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="otostop-highlight">
+      <LineStyle>
+        <color>FF5B46</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="otostop-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#otostop-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#otostop-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+
+    <Style id="taksi-normal">
+      <LineStyle>
+        <color>996666</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="taksi-highlight">
+      <LineStyle>
+        <color>996666</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="taksi-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#taksi-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#taksi-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+
     <Placemark>
       <name>Directions from Hopa Otogarı, Hopa/Artvin, Turkey to Poti, Samegrelo-Zemo Svaneti, Georgia</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#bisiklet-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -1311,7 +1418,7 @@
     
         <Placemark>
       <name>Directions from Poti, Samegrelo-Zemo Svaneti, Georgia to Khobi, Samegrelo-Zemo Svaneti, Georgia</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#polis-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -1501,7 +1608,7 @@
 
     <Placemark>
       <name>Directions from Khobi, Samegrelo-Zemo Svaneti, Georgia to Zugdidi, Samegrelo-Zemo Svaneti, Georgia</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#bisiklet-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -2257,7 +2364,7 @@
 
     <Placemark>
       <name>Directions from Zugdidi, Samegrelo-Zemo Svaneti, Georgia to StarHostel, Kutaisi, Georgia</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#bisiklet-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -3713,7 +3820,7 @@
 
     <Placemark>
       <name>Directions from StarHostel, Kutaisi, Georgia to Guest House Borjomi, Gogias Tsikhe Street, Borjomi, Georgia</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#bisiklet-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -5083,7 +5190,7 @@
 
     <Placemark>
       <name><![CDATA[Directions from Guest House Borjomi, Gogias Tsikhe Street, Borjomi, Georgia to Haer B&B, Meghri, Armenia]]></name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#bisiklet-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -14031,7 +14138,7 @@
 
     <Placemark>
         <name>Directions from Meghri 3401, Armenia to Syunik Province, AH82, Iran</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -14455,7 +14562,7 @@
 
       <Placemark>
         <name>Directions from Syunik Province, AH82, Iran to East Azerbaijan Province, Marand, کوچه عالیباف، Iran</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -15364,7 +15471,7 @@
 
       <Placemark>
       <name>Directions from Marand, East Azerbaijan Province, Iran to Tehran West Terminal, اردوخانی, Tehran Province, Iran</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#otobus-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -18413,7 +18520,7 @@
 
 <Placemark>
       <name>Directions from South Terminal, Morsali, Tehran, Tehran Province, Iran to Isfahan, Isfahan Province, Iran</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#otobus-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -20042,7 +20149,7 @@
 
     <Placemark>
       <name>Directions from Tehran West Terminal, اردوخانی, Tehran Province, Iran to Tabriz, East Azerbaijan Province, Iran</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#otobus-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -22401,7 +22508,7 @@
 
     <Placemark>
         <name>Directions from Tabriz, East Azerbaijan Province, Iran to Naw, Kermanshah Province, Iran</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -26230,7 +26337,7 @@
       
       <Placemark>
         <name>Directions from Kermanshah Province, Hajij Road, Iran to Kermanshah, Kermanshah Province, Iran</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -27859,7 +27966,7 @@
 
       <Placemark>
       <name>Directions from Kermanshah, Kermanshah Province, Iran to Tehran West Terminal, اردوخانی, Tehran Province, Iran</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#otobus-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -30500,7 +30607,7 @@
 
     <Placemark>
       <name>Directions from Tehran Province, Iran to Baku, Azerbaijan</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#bisiklet-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -38093,7 +38200,7 @@
 
     <Placemark>
       <name>Directions from Baku, Azerbaijan to Baku-Alat-Gazakh-Georgia Hwy, Alat, Azerbaijan</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#taksi-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -38679,7 +38786,7 @@
 
     <Placemark>
       <name>Bisikletle Vapura</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#bisiklet-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -38706,7 +38813,7 @@
 
     <Placemark>
       <name>Caspean Sea by Boat</name>
-      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+      <styleUrl>#caspean-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -38735,7 +38842,7 @@
 
     <Placemark>
         <name>Tren</name>
-        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
+        <styleUrl>#tren-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -38837,7 +38944,7 @@
       </Placemark>
       <Placemark>
         <name>Tren 2</name>
-        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
+        <styleUrl>#tren-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -38923,7 +39030,7 @@
       </Placemark>
       <Placemark>
         <name>Tren3</name>
-        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
+        <styleUrl>#tren-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -38935,7 +39042,7 @@
 
             <Placemark>
         <name>Directions from Unnamed Road, Nukus, Uzbekistan to Khiva, Khorezm Province, Uzbekistan</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -39739,7 +39846,7 @@
 
       <Placemark>
         <name>Directions from Khiva, Khorezm Province, Uzbekistan to Hotel Rumi, Bukhara, Uzbekistan</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#taksi-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -40922,7 +41029,7 @@
 
       <Placemark>
         <name><![CDATA[Directions from Hotel Rumi, Bukhara, Uzbekistan to B&B Bahodir, Samarkand, Uzbekistan]]></name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -42147,7 +42254,7 @@
 
       <Placemark>
         <name><![CDATA[Directions from B&B Bahodir, Samarkand, Uzbekistan to Point 3]]></name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -51954,7 +52061,7 @@
 
 <Placemark>
         <name>Directions from Langar oncesi to Langar Sonrası</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -52010,7 +52117,7 @@
 
       <Placemark>
         <name>Directions from Langar sonrası 2 to Langar sonrası 3</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -52285,7 +52392,7 @@
 
       <Placemark>
         <name>Directions from Langar sonrası 4 to Langar sonrası 5</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -52350,7 +52457,7 @@
 
       <Placemark>
         <name>Directions from Langar sonrası 6 to Langar sonrası 7</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -52494,7 +52601,7 @@
 
       <Placemark>
         <name>Directions from Langar sonrası 8 to Langar sonrası 9</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -52576,7 +52683,7 @@
 
       <Placemark>
         <name>Directions from Langar sonrası 10 to Langar sonrası 11</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -52681,7 +52788,7 @@
 
       <Placemark>
         <name>Directions from Langar Sonrası 12 to Langar sonrası 13</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -52712,7 +52819,7 @@
 
       <Placemark>
         <name>Directions from Langar sonrası 14 to Langar sonrası 15</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -52816,7 +52923,7 @@
 
       <Placemark>
         <name>Directions from Langar sonrası 16 to Langar sonrası 17</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -53509,7 +53616,7 @@
 
       <Placemark>
         <name>Directions from Langar sonrası 18 to Alichur Hotel Nur, Gorno-Badakhshan Autonomous Province, Tajikistan</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -53938,7 +54045,7 @@
 
       <Placemark>
         <name>Directions from Alichur Hotel Nur, Gorno-Badakhshan Autonomous Province, Tajikistan to Murghab, Gorno-Badakhshan Autonomous Province, Tajikistan</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#otostop-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -54780,7 +54887,7 @@
 
       <Placemark>
         <name>Directions from Murghab, Gorno-Badakhshan Autonomous Province, Tajikistan to Tuzgolune donus</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -60407,7 +60514,7 @@
 
       <Placemark>
         <name>Tuz gölü yolu</name>
-        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -60437,7 +60544,7 @@
 
       <Placemark>
         <name>Directions from A363, Ak Say, Kyrgyzstan to Guest house Riverside, Karakol</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#bisiklet-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
