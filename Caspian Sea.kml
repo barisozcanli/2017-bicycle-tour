@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Caspian Sea</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Bisikletle Vapura</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          49.4213963,39.9793563,0
+          49.4231129,39.9801456,0
+          49.425087,39.9805402,0
+          49.4278336,39.9803429,0
+          49.4310093,39.9803429,0
+          49.4334126,39.9805402,0
+          49.4365025,39.9810005,0
+          49.4386482,39.9810005,0
+          49.4398499,39.9810663,0
+          49.4407082,39.9804744,0
+          49.4426823,39.9787644,0
+          49.4384766,39.9763966,0
+          49.4401073,39.9761335,0
+          49.4415665,39.9765281,0
+          49.4425964,39.9762651,0
+          49.4436264,39.9742261,0
+          49.4429398,39.9726474,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Caspean Sea by Boat</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          49.4429398,39.9726474,0
+          49.4430256,39.9690296,0
+          49.4439697,39.96653,0
+          49.447403,39.9640302,0
+          49.4512653,39.9617277,0
+          49.4569302,39.9615961,0
+          49.4655132,39.9638328,0
+          49.4734955,39.9687665,0
+          49.4936657,39.9825132,0
+          49.7296143,40.0507452,0
+          50.5123901,40.0465402,0
+          51.0974121,40.2061481,0
+          51.3061523,40.9467137,0
+          50.8007813,41.6729118,0
+          49.921875,42.4234565,0
+          49.9658203,42.9885765,0
+          50.1855469,43.436966,0
+          50.7348633,43.5644716,0
+          51.1743164,43.6519755,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
