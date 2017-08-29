@@ -56,7 +56,7 @@
     <Style id="line-1267FF-5000-nodesc-highlight">
       <LineStyle>
         <color>ffff6712</color>
-        <width>7.5</width>
+        <width>5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -72,32 +72,32 @@
         <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-F9A825-1969-nodesc-normal">
+    <Style id="line-F9A825-5000-nodesc-normal">
       <LineStyle>
         <color>ff25a8f9</color>
-        <width>1.969</width>
+        <width>5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-F9A825-1969-nodesc-highlight">
+    <Style id="line-F9A825-5000-nodesc-highlight">
       <LineStyle>
         <color>ff25a8f9</color>
-        <width>2.9535</width>
+        <width>5</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-F9A825-1969-nodesc">
+    <StyleMap id="line-F9A825-5000-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-F9A825-1969-nodesc-normal</styleUrl>
+        <styleUrl>#line-F9A825-5000-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-F9A825-1969-nodesc-highlight</styleUrl>
+        <styleUrl>#line-F9A825-5000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
@@ -38679,7 +38679,7 @@
 
     <Placemark>
       <name>Bisikletle Vapura</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -38706,7 +38706,7 @@
 
     <Placemark>
       <name>Caspean Sea by Boat</name>
-      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
         <coordinates>
@@ -38735,7 +38735,7 @@
 
     <Placemark>
         <name>Tren</name>
-        <styleUrl>#line-F9A825-1969-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -38837,7 +38837,7 @@
       </Placemark>
       <Placemark>
         <name>Tren 2</name>
-        <styleUrl>#line-F9A825-1969-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -38923,7 +38923,7 @@
       </Placemark>
       <Placemark>
         <name>Tren3</name>
-        <styleUrl>#line-F9A825-1969-nodesc</styleUrl>
+        <styleUrl>#line-F9A825-5000-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
