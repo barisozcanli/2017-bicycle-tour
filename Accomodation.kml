@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Accomodation</name>
+    <Style id="icon-1522-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1522-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1522-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1537-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1537-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1537-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1537-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1537-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1602-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1602-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1602-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1602-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1603-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1603-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1717-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1717-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1717-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1717-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1717-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1765-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1765-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1765-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1765-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1765-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>24 March 2017 Camping Gori</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.0262991,42.0140772,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25 March 2017 Camping Mtskheta</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.7287107,41.8489488,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1 April 2017 Camping Karkop</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.8609543,41.1793646,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17 March 2017 Camping Khobi</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          41.9021237,42.3177947,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>9 april 2017 Camping Vedi</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.6971196,39.9079175,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>11 April 2017 Camping Spandarian Reservoir</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.8059931,39.6736346,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[14 April 2017 Haer B&B]]></name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          46.2395132,38.9091348,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[3 April 2017 Ruzanna's B&B]]></name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.383513,41.0099651,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[12 April 2017 Vazken's Guesthouse]]></name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          46.2411359,39.3807506,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[4 April 2017 B&B Araz]]></name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.8541307,40.74251,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>26-27 March 2017 New Tblisi Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.8175964,41.6950765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28-31 March 2017 Envoy Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.8087853,41.6890358,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[13 April 2017 Mi&Max Hotel]]></name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          46.4066711,39.2070639,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>20-21 March 2017 Star Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          42.7076688,42.266226,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18 March 2017 MyMoon Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          41.8766534,42.5052305,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15-16 March 2017 Retro Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          41.6401309,41.6437646,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25-31 August 2017 Riverside Guesthouse</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          78.3845758,42.4775927,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>24 August Camping Chickan</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          77.7506733,42.2655948,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23 August 2017 Camping Kadzhi-Say</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          77.1736309,42.1690773,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22 August 2017 Camping Kzyl-Tuu</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          76.7565662,42.2479265,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21 August 2017 Camping Ak-Olen</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          76.2339002,42.3209579,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16-17 August 2017 CBT house Jangytalap</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          75.0243902,41.4546925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18 August 2017 Camping Songkul</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          75.0806093,41.7300818,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19 August 2017 Camping Songkul-west</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          75.0188971,41.8755846,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6 June 2017 Masallı Hotel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.6665851,39.0338633,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>7 June 2017 Camping in a Homestay</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.9937395,39.6024313,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>9-14 June Centrum Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          49.8400301,40.3719552,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 June 2017 Camping Alat Port</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          49.4411132,39.9765302,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>8 June 2017 Hostel Baku Yard</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          49.8387319,40.3715199,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5 June 2017 Aseman Hotel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.8710499,38.4388587,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4 June 2017 Camping Haviq</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          48.9131713,38.1503356,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3 June 2017 Camping Rasht</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          49.5961583,37.2889364,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1 June 2017 Camping Kandovan</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          51.3075498,36.142391,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2 June 2017 Camping Ramsar Oncesi</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          50.9069109,36.8044399,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[30-31 May 2017 Alereza's Home]]></name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          51.4326882,35.7073444,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[2 May 2017 Masaoud's brother]]></name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          50.9374237,35.8423081,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[3-5 May 2017 Parand Masoud's house]]></name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          50.9534526,35.465747,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18 May 2017 Camping Kandovan</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          46.2478012,37.7943872,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[7-11 July Vero's house]]></name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          68.7904108,38.6031129,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[28 June -2 July 2017 B&B Bahodir]]></name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          66.9792813,39.6561959,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>27 June 2017 Camping Navoiy Tır Park</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          65.4126674,40.1285649,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>25-26 June 2017 Rumi Hotel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          64.421728,39.7700465,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>21 June 2017 Camping Qipchak</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          60.1473141,42.2468781,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>22-24 June 2017 Alibek Hotel Khiva</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          60.3568134,41.3792539,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3 July 2017 Cmaping Near Shahrisabz</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          66.6180897,38.8765345,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5 June 2017 Çayhane</name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          67.4999812,37.9980143,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6 July 2017 Camping Tursunzoda</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          68.2412767,38.5447083,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>24 July 2017 Hanis Guesthouse Ishkasheem</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          71.6109654,36.7272978,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>3 Agust 2017 Aigerim homestay Karakul</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.5603815,39.0143843,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>30-31 July 2017 Pamir Hotel Murghab</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.9668918,38.1744785,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>29 July 2017 Marco Polo Homestay </name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.2576943,37.7509327,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>28 July 2017 Camping Khargush Pass</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.0796385,37.4544032,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>18 July 2017 Rushan Homestay</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          71.5558139,37.9477087,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 July 2017 Camping Obigarm</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          69.7518378,38.7201919,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 July 2017 Camping </name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          70.1421636,38.8453524,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 July 2017 Tavildara</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          70.4840916,38.6960026,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 July 2017 Camping Saghirdasht Pass</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          70.7180929,38.6407073,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 July 2017 Camping</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          70.9471375,38.4416528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17 July 2017 Teahouse Hotel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          71.3399443,38.2947448,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>2 Agust 2017 Camping</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.4892654,38.9019881,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>1 Agust 2017 Camping</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          74.027102,38.3853164,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19 June 2017 Aktau-Nukus Train</name>
+      <styleUrl>#icon-1717-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          55.211792,45.3096659,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>16 June 2017 Caspean Sea Ferry</name>
+      <styleUrl>#icon-1537-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          50.3503418,42.488302,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>17-18 June 2017 Aktau Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          51.1868477,43.6893806,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>7-10 June 2017 Osh Guesthouse</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          72.7998787,40.5458999,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[11 August 2017 Şükrü's House]]></name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.3129478,40.7650227,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>5 August 2017 Tatina Guesthouse</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.2463297,39.7303473,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>4 August 2017 Old Kyrgyz Couple</name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.2681012,39.5149505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6 August 2017 Camping Targalak</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.5434461,40.0561612,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>12 August 2017 Camping</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.3485782,41.1611931,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>13 August 2017 Camping</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          73.6502194,41.3061173,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>14 August 2017 Camping</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          74.138006,41.3959946,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 August 2017 Camping</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          74.5914146,41.4873229,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[22 March 2017 Gode's House]]></name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          43.5890454,41.9799667,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>23 March 2017 Guesthouse Borjomi</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          43.3835292,41.8437499,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>19 March 2017 Georgian Family</name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          42.1375465,42.3995658,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 March 2017 Start</name>
+      <styleUrl>#icon-1522-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          41.4121056,41.3871126,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6-8 April Envoy Hostel</name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          44.5102447,40.18473,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>10 April 2017 Vardananc Tunc </name>
+      <styleUrl>#icon-1602-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.4580516,39.6963422,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>15 April 2017 Camping Jolfa</name>
+      <styleUrl>#icon-1765-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.6301636,38.9534227,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[16-17 April 2017 Yashar's house]]></name>
+      <styleUrl>#icon-1603-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          45.7740211,38.430732,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
